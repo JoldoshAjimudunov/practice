@@ -1,0 +1,212 @@
+body {
+  background-color: rgb(92, 138, 255);
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  height: 3500px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 0.3px solid rgb(103, 117, 241);
+}
+p {
+  margin: 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  width: 100px;
+}
+.navbar {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(220, 46, 185);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.navbar__left {
+  display: flex;
+  align-items: center;
+}
+.left-home {
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+.navbar__middle {
+  display: flex;
+}
+.middle__links {
+  margin: 0 20px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+.navbar__right {
+  align-items: center;
+  width: 200px;
+}
+.right__youtube {
+  width: 70px;
+}
+.right__icons {
+  width: 40px;
+  margin-right: 10px;
+}
+.burger-menu {
+  display: none;
+}
+.photo {
+  width: 500px;
+  border-radius: 10px;
+}
+.info {
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.info__text {
+  width: 500px;
+  margin-left: 50px;
+}
+
+.vid__videos {
+  width: 320px;
+  border-radius: 4px;
+}
+.popular-vid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 150px;
+}
+.vid__block {
+  margin: 20px;
+}
+
+@media (max-width: 992px) {
+  p {
+    font-size: 14px;
+  }
+  .navbar__middle {
+    display: none;
+  }
+  .navbar__right {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+    width: 60px;
+    height: 40px;
+    border-radius: 1px solid rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .burger-menu .stick {
+    height: 4px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+}
+@media (max-width: 768px) {
+  .info__text {
+    margin: 0;
+    width: 460px;
+  }
+  .photo {
+    width: 470px;
+  }
+
+  .skills__item {
+    max-width: 400px;
+  }
+
+  .hobbies__text {
+    max-width: 400px;
+  }
+  .gaming-img {
+    max-width: 300px;
+  }
+}
+@media (max-width: 576px) {
+  .info__text {
+    margin: 0;
+    width: 400px;
+  }
+  .photo {
+    width: 400px;
+  }
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills__item {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  background-color: green;
+  margin: 20px;
+}
+.item__win {
+  background-color: green;
+  width: 33%;
+}
+.skills__item-win {
+  background-color: gray;
+}
+.chandler {
+  background-color: gray;
+  z-index: 2;
+}
+.hobbies {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.gaming-img {
+  width: 400px;
+}
+.hobbies__text {
+  width: 600px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.skills__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.bottom {
+  height: 100px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 150px;
+}
+.bottom__text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
